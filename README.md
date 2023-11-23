@@ -12,30 +12,15 @@ Module 1's assignment entails refactoring the Horiseon Social Solution Services 
 
 **ALTERATIONS TO HTML SOURCE:**
 
-1) Header Section:
-Changed the <div> with class "header" to <header> for better semantics.
-Used a <nav> element for the navigation links.
-Changed the heading level of the website name to H1 for the main heading.
-
-2) Section Elements:
-Changed the <div> elements with class names to <section> elements to provide a more semantic structure.
-Added id attributes to each <section> for easier navigation and linking.
-
-3) Article Elements for Benefits:
-Changed the <div> elements with class names to <article> elements to represent each benefit as an article.
-Added alt attributes to the <img> elements within each article for accessibility.
-
-4) Footer Element:
-Changed the <div> with class "footer" to <footer> for semantic representation.
-
-5) Alt Attributes for Images:
-Added alt attributes to all <img> elements for accessibility.
-
-6) Title Element:
-Updated the website title to be more descriptive along with adding a location based description for specific local SEO keyword targeting.
-
-7) Word localisation:
-Updated certain words to Australian english. (e.g z to s)
+- Added <meta name="viewport" content="width=device-width, initial-scale=1.0"> for better responsiveness.
+- Changed the <div> for the header to <header> for better semantic representation.
+- Changed the <div> for the hero section to <section> for a more semantic structure.
+- Changed the <div> for the content section to <section> for better semantics.
+- Changed the <div> for each service to <article> for better representation of each section.
+- Updated the image tags with the alt attribute for better accessibility.
+- Changed the <div> for the benefits section to <section> for better semantics.
+- Changed the <div> for each benefit to <article> for better representation of each section.
+- Changed the <div> for the footer to <footer> for better semantic representation.
 
 **ALTERATIONS TO CSS SOURCE:**
 
