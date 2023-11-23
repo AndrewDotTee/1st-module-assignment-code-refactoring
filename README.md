@@ -18,11 +18,9 @@ Maintained the original layout and structure.
 
 **ALTERATIONS TO CSS SOURCE:**
 
-Introduced semantic HTML elements such as header, nav, article and footer for better structure and readability.
-Removed unnecessary repetitions and consolidated CSS rules.
-Combined the styles for .float-left and .float-right into a single rule.
-Grouped common styles for the benefits section under benefits article.
-Improved overall readability and maintained the layout and styling.
+Added semantic HTML elements such as header, nav, article and footer for better structure and readability.
+Changed .header div to .header nav.
+Adjusted the selectors to maintain the original layout and structure.
 
 **REMARKS:**
 
