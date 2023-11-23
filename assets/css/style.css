@@ -1,20 +1,27 @@
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body {
     background-color: #d9dcd6;
 }
 
+/* Consolidated Font Definitions */
+body, .header, .header div, .benefits, .benefit-lead, .benefit-brand, .benefit-cost,
+.search-engine-optimization, .online-reputation-management, .social-media-marketing,
+.footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header, .benefits, .search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    color: #ffffff;
+}
+
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 .header h1 {
@@ -26,19 +33,18 @@ body {
     color: #d9dcd6;
 }
 
-.header nav {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header nav ul {
+.header div ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -77,6 +83,14 @@ p {
     margin-left: 20px;
 }
 
+/* Responsive Design - Example for smaller screens */
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+    /* Add more responsive styles as needed */
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,31 +98,32 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefits .benefit-lead,
-.benefits .benefit-brand,
-.benefits .benefit-cost {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits .benefit-lead h3,
-.benefits .benefit-brand h3,
-.benefits .benefit-cost h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits .benefit-lead img,
-.benefits .benefit-brand img,
-.benefits .benefit-cost img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* ... Other styles ... */
 
 .search-engine-optimization,
 .online-reputation-management,
@@ -116,8 +131,6 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: #ffffff;
 }
 
@@ -137,7 +150,6 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
