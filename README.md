@@ -20,24 +20,12 @@ Adjusted the structure to use semantic HTML elements where applicable.
 
 **ALTERATIONS TO CSS SOURCE:**
 
-Ensured consistent box models and spacing.
-Defined padding, font-family, and colors.
-Styled the main heading as inline block.
-Added a distinct color to the "seo" span.
-Styled navigation links with padding and margin.
-Removed list styling.
-Applied white color to links.
-Set a default font size for paragraphs.
-Applied a background image with height and full width.
-Defined styles for left and right floating elements.
-Set width to 75% for the main content.
-Styled benefits with right float, width, and background color.
-Applied styles to individual benefits.
-Set margin, color, and centered text.
-Styled sections with consistent properties.
-Set a max height for images.
-Added padding and centered text.
-Set the font size.
+Ensured proper box-sizing, padding, and margin for all elements.
+Applied background color to the body for better readability.
+Added semantic headings (h1, h2, h3) to improve document structure.
+Removed default margin for paragraphs (p) for a cleaner layout.
+Adjusted image styling for better centering using display.
+Ensured consistent use of semantic HTML tags for different sections of the page.
 
 **REMARKS:**
 
