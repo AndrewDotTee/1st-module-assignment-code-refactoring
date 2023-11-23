@@ -1,8 +1,8 @@
-THE INTRODUCTION:
+**THE INTRODUCTION:**
 
 Module 1's assignment entails refactoring the Horiseon Social Solution Services incorporated website to further improve accessibility for new and returning clients and additionally enhance search engine optimisation through refactoring the source code and related keywords.
 
-THE OBJECTIVES:
+**THE OBJECTIVES:**
 
 - The website meets accessibility standards via desktop.
 - During inspection of the HTML & CSS code, semantic elements are present.
@@ -10,12 +10,12 @@ THE OBJECTIVES:
 - Headings are in sequential order.
 - A descriptive title is present.
 
-ALTERATIONS TO HTML SOURCE:
+**ALTERATIONS TO HTML SOURCE:**
 
 1) Header Section:
 Changed the <div> with class "header" to <header> for better semantics.
 Used a <nav> element for the navigation links.
-Changed the heading level of the website name to <h1> for the main heading.
+Changed the heading level of the website name to H1 for the main heading.
 
 2) Section Elements:
 Changed the <div> elements with class names to <section> elements to provide a more semantic structure.
@@ -37,7 +37,7 @@ Updated the website title to be more descriptive along with adding a location ba
 7) Word localisation:
 Updated certain words to Australian english. (e.g z to s)
 
-ALTERATIONS TO CSS SOURCE:
+**ALTERATIONS TO CSS SOURCE:**
 
 1) Semantic HTML Elements:
 Introduced semantic HTML elements such as header, nav, article and footer for better structure and readability.
@@ -51,10 +51,10 @@ Applied styles to specific HTML elements within sections for h1, nav, ul, li, im
 4) Consistent Naming and Formatting:
 Ensured consistent naming conventions and formatting for better code maintenance.
 
-REMARKS:
+**REMARKS:**
 
 The purpose of modifying the HTML & CSS source code is to improve the code's semantics, structure and accessibility in contrast to the original source code provided.
 
-OUTPUT:
+**OUTPUT:**
 
 The final output was uploaded to Github and can be accessed and viewed here:
