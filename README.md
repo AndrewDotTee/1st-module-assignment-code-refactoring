@@ -57,4 +57,4 @@ The purpose of modifying the HTML & CSS source code is to improve the code's sem
 
 **OUTPUT:**
 
-The final output was uploaded to Github and can be accessed and viewed here:
+The final output was uploaded to Github and can be accessed and viewed <a href="https://andrewdottee.github.io/1st-module-assignment-code-refactoring/">here.</a>
