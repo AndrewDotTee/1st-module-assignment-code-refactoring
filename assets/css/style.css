@@ -114,14 +114,13 @@ header nav ul li {
     font-size: 36px;
 }
 
-/* Footer styles */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
+/* Media query for desktop */
+@media screen and (min-width: 768px) {
+    .benefits {
+        width: 15%;
+    }
 
-footer h2 {
-    font-size: 20px;
+    .content {
+        width: 60%;
+    }
 }
