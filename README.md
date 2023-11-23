@@ -11,16 +11,16 @@ Module 1's assignment entails refactoring the Horiseon Social Solution Services 
 - A descriptive title is present.
 
 **ALTERATIONS TO HTML SOURCE:**
-Updated the <title> for improved SEO keyword search and title representation.
-Replaced the outermost <div> tags with <header>, <section>, and <article> tags as appropriate for better semantics.
-Added alt attributes to the images for accessibility.
-Maintained the original layout and structure.
+
+Added alt attributes to the images for better accessibility.
+Changed the header <div> to <header> for better semantics.
+Changed the <title> to a much more seo friendly title & keyword.
+Added a comment to the hero section to clarify its purpose.
+Adjusted the structure to use semantic HTML elements where applicable.
 
 **ALTERATIONS TO CSS SOURCE:**
 
-Added semantic HTML elements such as header, nav, article and footer for better structure and readability.
-Changed .header div to .header nav.
-Adjusted the selectors to maintain the original layout and structure.
+
 
 **REMARKS:**
 
