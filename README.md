@@ -12,29 +12,19 @@ Module 1's assignment entails refactoring the Horiseon Social Solution Services 
 
 **ALTERATIONS TO HTML SOURCE:**
 
-- Added <meta name="viewport" content="width=device-width, initial-scale=1.0"> for better responsiveness.
-- Changed the <div> for the header to <header> for better semantic representation.
-- Changed the <div> for the hero section to <section> for a more semantic structure.
-- Changed the <div> for the content section to <section> for better semantics.
-- Changed the <div> for each service to <article> for better representation of each section.
-- Updated the image tags with the alt attribute for better accessibility.
-- Changed the <div> for the benefits section to <section> for better semantics.
-- Changed the <div> for each benefit to <article> for better representation of each section.
-- Changed the <div> for the footer to <footer> for better semantic representation.
+Replaced the outermost <div> with <header> for better semantic representation.
+Updated the image tags with the alt attribute for better accessibility.
+Updated the <title> for improved SEO keyword search and title representation.
+Changed the <div> for the benefits section to <section> for better semantics.
+Changed the <div> for each benefit to <article> for better representation of each section.
+Changed the <div> for the footer to <footer> for better semantic representation.
 
 **ALTERATIONS TO CSS SOURCE:**
-
-1) Semantic HTML Elements:
 Introduced semantic HTML elements such as header, nav, article and footer for better structure and readability.
-
-2) Grouping Styles by Section:
-Organised styles based on the sections of the HTML document with the header, hero, content, benefits, service sections and footer.
-
-3) Styling Specific Elements:
-Applied styles to specific HTML elements within sections for h1, nav, ul, li, img, h2, h3 for a more targeted, modular styling.
-
-4) Consistent Naming and Formatting:
-Ensured consistent naming conventions and formatting for better code maintenance.
+Removed unnecessary repetitions and consolidated CSS rules.
+Combined the styles for .float-left and .float-right into a single rule.
+Grouped common styles for the benefits section under benefits article.
+Improved overall readability and maintained the layout and styling.
 
 **REMARKS:**
 
