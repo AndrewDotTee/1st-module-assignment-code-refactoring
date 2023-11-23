@@ -12,7 +12,7 @@ Module 1's assignment entails refactoring the Horiseon Social Solution Services 
 
 **ALTERATIONS TO HTML SOURCE:**
 
-Replaced the outermost <div> with <header> for better semantic representation. 
+Replaced the outermost div with header for better semantic representation. 
 Updated the image tags with the alt attribute for better accessibility. 
 Updated the <title> for improved SEO keyword search and title representation.
 Changed the <div> for the benefits section to <section> for better semantics.
